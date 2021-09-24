@@ -1,0 +1,102 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "cpf": "123456789-01",
+      "name": "João da Silva",
+      "email": "joaosilva@email.com.br",
+      "phone": "11 94444-5678",
+      "createdAt": "2021-09-13"
+    },
+    {
+      "id": 2,
+      "cpf": "123456789-02",
+      "name": "Eduardo Moreira",
+      "email": "eduardomoreira@email.com.br",
+      "phone": "11 9333-1111",
+      "createdAt": "2021-09-13"
+    },
+    {
+      "id": 3,
+      "cpf": "123456789-03",
+      "name": "Julia Souza",
+      "email": "juliasouza@email.com.br",
+      "phone": "11 95555-9876",
+      "createdAt": "2021-09-13"
+    },
+    {
+      "id": 4,
+      "cpf": "123456789-04",
+      "name": "Artur Nogueira",
+      "email": "arturnogueira@email.com.br",
+      "phone": "11 91234-5678",
+      "createdAt": "2021-09-14"
+    },
+    {
+      "id": 5,
+      "cpf": "123456789-05",
+      "name": "Pedro Dos Anjos",
+      "email": "pedroanjos@email.com.br",
+      "phone": "11 97777-4321",
+      "createdAt": "2021-09-14"
+    },
+    {
+      "id": 6,
+      "cpf": "777456789-99",
+      "name": "Rafael De Oliveira",
+      "email": "pedroanjos@email.com.br",
+      "phone": "11 97777-4321",
+      "createdAt": "2021-09-13"
+    },
+    {
+      "cpf": "333444555-01",
+      "name": "Leandro Dos Anjos",
+      "email": "leandro@email.com.br",
+      "phone": "11 98765-4321",
+      "createdAt": "2021-09-23",
+      "id": 7
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "device": "iPhone 10s",
+      "paymentMethod": "Crédito",
+      "amount": 312.44,
+      "createdAt": "2021-09-13"
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "device": "Moto G10",
+      "paymentMethod": "Débito",
+      "amount": 866.99,
+      "createdAt": "2021-09-14"
+    },
+    {
+      "id": 3,
+      "customerId": 4,
+      "device": "Redmi 10S",
+      "paymentMethod": "Dinheiro",
+      "amount": 100.81,
+      "createdAt": "2021-09-14"
+    },
+    {
+      "id": 4,
+      "customerId": 5,
+      "device": "Samsung Galaxy 20",
+      "paymentMethod": "Boleto",
+      "amount": 600,
+      "createdAt": "2021-09-15"
+    },
+    {
+      "id": 5,
+      "customerId": 6,
+      "device": "Moto G8",
+      "paymentMethod": "Crédito",
+      "amount": 215.5,
+      "createdAt": "2021-09-15"
+    }
+  ]
+}

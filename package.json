@@ -1,0 +1,17 @@
+{
+  "name": "soc-server",
+  "version": "1.0.0",
+  "description": "Banco de dados simples para testes do Soc",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "Leandro Dos Anjos",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }  
+}
