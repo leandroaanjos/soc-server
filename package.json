@@ -1,7 +1,7 @@
 {
   "name": "soc-server",
   "version": "1.0.0",
-  "description": "Banco de dados simples para testes do Soc",
+  "description": "A mock RESTful API for testing proposals",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -12,6 +12,7 @@
   "author": "Leandro Dos Anjos",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "json-server": "^0.16.3"
-  }  
+  }
 }
